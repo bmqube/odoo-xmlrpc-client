@@ -20,7 +20,7 @@ This project provides a TypeScript client for interacting with Odoo's XML-RPC AP
 To install the package, use your favorite package manager. For example, with npm:
 
 ```sh
-npm i odoo-xmlrpc-client
+npm i @bmqube/odoo-xmlrpc-client
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Here are some examples of how to use the Odoo XML-RPC client:
 
 ### Create Row
 ```typescript
-import { OdooXMLRPC, OdooConfig } from 'odoo-xmlrpc-client';
+import { OdooXMLRPC, OdooConfig } from '@bmqube/odoo-xmlrpc-client';
 
 const config: OdooConfig = {
     url: 'https://your-odoo-instance.com',
@@ -68,7 +68,7 @@ main();
 
 ### Read Row
 ```typescript
-import { OdooXMLRPC, OdooConfig } from 'odoo-xmlrpc-client';
+import { OdooXMLRPC, OdooConfig } from '@bmqube/odoo-xmlrpc-client';
 
 const config: OdooConfig = {
     url: 'https://your-odoo-instance.com',
