@@ -1,4 +1,5 @@
-import xmlrpc from 'xmlrpc';
+import * as xmlrpc from '@bmqube/xmlrpc';
+import { ClientOptions } from '@bmqube/xmlrpc/dist/client.mjs';
 
 export type OdooConfig = {
     url: string;
@@ -38,8 +39,8 @@ export class OdooXMLRPC {
             path: path,
         };
         return url.protocol === 'https:'
-            ? xmlrpc.createSecureClient(clientOptions)
-            : xmlrpc.createClient(clientOptions);
+            ? xmlrpc.createSecureClient(clientOptions as ClientOptions)
+            : xmlrpc.createClient(clientOptions as ClientOptions);
     }
 
     private async call<T>(
