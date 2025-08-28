@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@bmqube/xmlrpc':
-        specifier: ^0.0.8
-        version: 0.0.8
+        specifier: ^0.0.9
+        version: 0.0.9
       '@types/node':
         specifier: ^24.3.0
         version: 24.3.0
@@ -21,8 +21,8 @@ importers:
 
 packages:
 
-  '@bmqube/xmlrpc@0.0.8':
-    resolution: {integrity: sha512-b9xvZDA92qbylJ/ltEDcY1dXRqxVQDUQA89Ikk5WBmYX9WewyKUJIUNu7KaovmmipgKTDi3eeOSlhkirqZf3qA==}
+  '@bmqube/xmlrpc@0.0.9':
+    resolution: {integrity: sha512-kZfLAWjAWnK3IAPR7HDZhgH93890ldZ2HJgA2E3Qyjmf/c+YWmsxFo4s4lDEazWnd9uStvKVhHCrWoMql9/MBg==}
 
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
@@ -44,7 +44,7 @@ packages:
 
 snapshots:
 
-  '@bmqube/xmlrpc@0.0.8':
+  '@bmqube/xmlrpc@0.0.9':
     dependencies:
       sax: 1.2.4
       xmlbuilder: 8.2.2
